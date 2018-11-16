@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+
+
+<class table="Product" name="com.Product">
+
+
+<id name="product_Id">
+
+<generator class="assigned"/>
+
+</id>
+
+<property name="product_Name"/>
+
+<property name="product_description"/>
+
+<property name="product_price"/>
+
+</class>
+
+</hibernate-mapping>
